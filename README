@@ -7,3 +7,21 @@ Intructions:
 If you don't want to broadcast your intentions by forking this, feel free to clone it and work locally. Then, send us a tar.gz of your solution, including your .git folder so we can see your commit history.
 
 We are a Django shop, but it is not a requirement that you implement your program as a Django app.
+
+=========================================
+
+Developer's Note:
+
+The original requirement is badly worded if what they wanted to see what an actual Tic-Tac-Toe game capable of always
+achieving a win against a human - Tic-Tac-Toe as a game was never designed to be won by any player unless someone just
+doesn't get what the game is all about.  Once you have an A.I. capable of playing the game you very quickly learn how
+to make that A.I. able to always block the human from winning or win once the human has gone to sleep or has forgotten
+how to play.  The point of Tic-Tac-Toe is to teach us humans how pointless Tic-Tac-Toe is as a game one might enjoy
+playing at a serious level.  On the other hand, once you have an A.I. able to play Tic-Tac-Toe you also have an A.I.
+able to play any game based on a 2D board that features symbols or game pieces that can be moved or are stationary like
+Candy Crush or Bejewled or the like; Candy Crush is like Tic-Tac-Toe in that it seeks to form groups of like pieces just
+as Tic-Tac-Toe seeks to form groups of like symbols.  What Candy Crush lacks is an A.I. capable of teaching the player
+how to play and win - think about this for a moment... and then notice what the source code represents and why it was
+crafted.
+
+Enjoy.
